@@ -1,23 +1,22 @@
 {
     "Header": {
-
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-
+        "title": "XELAN, Inc.",
+        "paragraph": "주식회사 셀앤은, 의료분야 전문 IT 기업입니다.",
+        "paragraph2": "안구 굴절 질환과 관련하여 머신 러닝 기술을 연구합니다."
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "주식회사 셀앤은 전 세계의 안구 질환을 해결하기 위해 연구합니다. 딥러닝 기술을 활용한 의료 AI 소프트웨어 개발을 통해 눈 검진 데이터를 효과적으로 분석하고, 수술 데이터의 분석을 통해 의사의 진단을 돕습니다. ",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "의료 AI 전문 인력 다수",
+            "국내 최고의 안과와 협업",
+            "안과 수술 데이터 다수 보유",
+            "훌륭한 AI 연구 인프라"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "",
+            "",
+            "",
+            ""
         ]
     },
     "Services": [{
@@ -50,8 +49,6 @@
             "name": "Consectetur adipiscing",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         }
-
-
     ],
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
@@ -93,7 +90,8 @@
             "img": "img/team/02.jpg",
             "name": "Mike Doe",
             "job": "Senior Designer"
-        }, {
+        },
+        {
             "img": "img/team/03.jpg",
             "name": "Jane Doe",
             "job": "Senior Designer"
@@ -105,32 +103,32 @@
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
+        "address": "서울특별시 서초구 서초대로 78길 5, 4층",
+        "phone": "+1 ",
+        "email": "bosco@xelan.co.kr",
         "facebook": "fb.com",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
     "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-group",
+            "title": "OKR",
+            "text": "팀의 성장과 개인의 성장을 함께 이룹니다"
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "주간회의",
+            "text": "회의를 통해 지식과 경험을 나눕니다"
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-comments-o",
+            "title": "공유의 가치",
+            "text": "팀원과의 신뢰를 공유합니다"
         },
         {
             "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "피드백",
+            "text": "빠른 실패를 통해 배움을 추구합니다"
         }
     ]
 }

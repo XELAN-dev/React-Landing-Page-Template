@@ -11,8 +11,7 @@ export class Contact extends Component {
                 <div className="section-title">
                   <h2>Get In Touch</h2>
                   <p>
-                    Please fill out the form below to send us an email and we
-                    will get back to you as soon as possible.
+
                   </p>
                 </div>
                 <form name="sentMessage" id="contactForm" noValidate>
@@ -23,7 +22,7 @@ export class Contact extends Component {
                           type="text"
                           id="name"
                           className="form-control"
-                          placeholder="Name"
+                          placeholder="이름"
                           required="required"
                         />
                         <p className="help-block text-danger"></p>
@@ -35,7 +34,7 @@ export class Contact extends Component {
                           type="email"
                           id="email"
                           className="form-control"
-                          placeholder="Email"
+                          placeholder="이메일 주소"
                           required="required"
                         />
                         <p className="help-block text-danger"></p>
@@ -48,14 +47,14 @@ export class Contact extends Component {
                       id="message"
                       className="form-control"
                       rows="4"
-                      placeholder="Message"
+                      placeholder="문의 내용"
                       required
                     ></textarea>
                     <p className="help-block text-danger"></p>
                   </div>
                   <div id="success"></div>
                   <button type="submit" className="btn btn-custom btn-lg">
-                    Send Message
+                    보내기
                   </button>
                 </form>
               </div>
@@ -70,14 +69,14 @@ export class Contact extends Component {
                   {this.props.data ? this.props.data.address : "loading"}
                 </p>
               </div>
-              <div className="contact-item">
+              {/* <div className="contact-item">
                 <p>
                   <span>
                     <i className="fa fa-phone"></i> Phone
                   </span>{" "}
                   {this.props.data ? this.props.data.phone : "loading"}
                 </p>
-              </div>
+              </div> */}
               <div className="contact-item">
                 <p>
                   <span>
@@ -87,7 +86,7 @@ export class Contact extends Component {
                 </p>
               </div>
             </div>
-            <div className="col-md-12">
+            {/* <div className="col-md-12">
               <div className="row">
                 <div className="social">
                   <ul>
@@ -111,7 +110,7 @@ export class Contact extends Component {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div id="footer">

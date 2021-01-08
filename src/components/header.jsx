@@ -15,6 +15,11 @@ export class Header extends Component {
                   </h1>
                   <p>
                     {this.props.data ? this.props.data.paragraph : "Loading"}
+                    <br></br>
+                    {this.props.data ? this.props.data.paragraph2 : "Loading"}
+                  </p>
+                  <p>
+
                   </p>
                   <a
                     href="#features"
